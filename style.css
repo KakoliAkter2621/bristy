@@ -1,0 +1,295 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+/* header section ster */
+
+header{
+   background-image: url("img/portfulio.jpg");
+   width:100%;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover; 
+
+   
+   
+
+}
+/* header section end */
+
+/* navigation ber start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+   
+    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding:10px ;
+    margin: 40px 0 0 0;
+    
+    
+   
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    
+}
+nav ul li a:hover{
+    color: rgb(122, 181, 64);
+}
+nav ul li .color{
+    color:rgb(122, 181, 64) ;
+}
+/* navigation ber end */
+
+
+/* header content start */
+.header-content{
+   padding: 300px 400px;
+   color: white;
+
+}
+.header-content h2{
+    font-size: 40px;
+}
+.header-content h1{
+    font-size:60px ;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 15px;
+}
+.header-content .content-color{
+    color:rgb(122, 181, 64) ;
+    display: inline-block;
+}
+.header-content h3{
+    font-size: 30px;
+}
+/* header content end */
+
+/* about section start */
+
+.headin-section{
+    padding-bottom: 30px;
+}
+
+.about-inner{
+text-align: center;
+padding: 35px 350px;
+}
+
+
+h2{
+    font-size: 25px;
+    padding:30px 0;
+}
+.headin-section{
+    margin: 0 100px;
+    display: flex;
+    gap: 30px;
+    
+    
+}
+
+.headin-inner .heading{
+    text-align: center;
+}
+.inner-1{
+    text-align: center;
+}
+.inner-1:hover{
+    color: #52eb3a;
+}
+.inner-2{
+    text-align: center;
+}
+.inner-2:hover{
+    color: #52eb3a;
+}
+.inner-3{
+    text-align: center;
+}
+.inner-3:hover{
+    color: #52eb3a;
+}
+.inner-4{
+    text-align: center;
+}
+.inner-4:hover{
+    color: #52eb3a;
+}
+
+/* about section end */
+
+
+/* service section start */
+
+.service-section{
+    background-color: gray;
+    height: 40%;
+    width: 100%;
+   
+}
+.service-inner{
+    font-size: 30px;
+   
+   
+}
+.inner-section{
+    padding: 35px 350px;
+    text-align: center;
+   
+}
+
+.service-img{
+   
+    display: flex;
+    margin: 35px 200px;
+    gap: 50px; 
+    padding-bottom: 35px;
+}
+.img-1{
+    display: inline-block;
+    text-align: center;
+}
+
+/* service section END */
+
+/* portfulio section start */
+
+.portfolio{
+    text-align: center;
+    margin: 0 350px;
+    padding-bottom: 35px;
+}
+
+.portfolio h2{
+    font-size: 30px;
+}
+
+.navber{
+    text-align: center;
+    color: white;
+    
+}
+
+.navber ul li{ 
+   
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    gap: 5px;
+   
+
+}
+.navber ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+}
+.navber ul li a:hover{
+    background-color:rgb(122, 181, 64) ;
+    color: black;
+    
+}
+
+.navber ul li .color{
+    background-color:rgb(122, 181, 64) ;
+    color: black;
+}
+.portfulio-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 35px 200px;
+    gap: 50px; 
+    padding-bottom: 35px;
+
+}
+
+/* portfulio section end */
+
+
+footer{
+    background-image: url("img/counter-bg.jpg");
+    width:100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+.footer-section{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 80px 20px;
+    margin:0 70px;
+    gap: 10px;
+    text-align: center;
+   
+}
+.footer-item-1{
+    border: 2px solid white;
+    padding: 10px 40px;
+    
+    
+}
+.footer-item-1 h2{
+    font-size: 50px;
+    padding: 0 0;
+}
+.footer-item-1 h3{
+    font-size: 30px;
+}
+
+
+.footer-item-2{
+    border: 2px solid white;
+    padding: 10px 40px;
+}
+.footer-item-2 h2{
+    font-size: 50px;
+    padding: 0 0;
+
+}
+.footer-item-2 h3{
+    font-size: 30px;
+}
+
+
+
+.footer-item-3{
+    border: 2px solid white;
+    padding: 10px 40px;
+}
+.footer-item-3 h2{
+    font-size: 50px;
+    padding: 0 0;
+}
+.footer-item-3 h3{
+    font-size: 30px;
+}
+
+
+.footer-item-4{
+    border: 2px solid white;
+    padding: 10px 40px;
+}
+.footer-item-4 h2{
+    font-size: 50px;
+    padding: 0 0;
+}
+.footer-item-4 h3{
+    font-size: 30px;
+}
